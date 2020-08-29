@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations":[
+    {
+      "name": "WebDemo Debug x64",
+      "type": "cppdbg",
+      "targetArchitecture": "x64",
+      "request": "launch",
+      "program": "${workspaceRoot}/out/Debug/webp_demo",
+      "args": [
+        "--in-file",
+        "${workspaceFolder}/img/3.webp",
+        "--out-file",
+        "${workspaceFolder}/out/Debug/3.jpg",
+        "--format",
+        "jpeg"
+      ],
+      "cwd": "${workspaceRoot}/out/Debug/",
+      "environment": []
+    }
+  ]
+}
